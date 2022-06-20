@@ -15,7 +15,7 @@
   --additional-text-color: #757575;
   --title-text-color: #ffffff;
   --footer-link-color: rgba(255, 255, 255, 0.6);
-  --border-color: #eeeeee; 
+  --border-color: #eeeeee;
 }
 
 /*body*/
@@ -929,6 +929,7 @@ p {
 .subscribe-input {
   width: 358px;
   height: 50px;
+  padding: 15px 0 15px 16px;
   background-color: var(--footer-bgr-color);
   color: var(--header-bgr-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
