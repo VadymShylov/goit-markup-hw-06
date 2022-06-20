@@ -15,6 +15,7 @@
   --additional-text-color: #757575;
   --title-text-color: #ffffff;
   --footer-link-color: rgba(255, 255, 255, 0.6);
+  --border-color: #eeeeee; 
 }
 
 /*body*/
@@ -68,7 +69,7 @@ p {
 
 .nav {
   background-color: var(--header-bgr-color);
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--header-border-color);
 }
 
 /*main-nav*/
@@ -520,7 +521,7 @@ p {
   height: 100%;
   color: var(--link-tex-color);
 
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--link-tex-color);
   border-radius: 4px;
 
   transition-property: border, color;
@@ -916,7 +917,7 @@ p {
 }
 
 .subscribe-title {
-  color: white;
+  color: var(--header-bgr-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -1039,7 +1040,7 @@ p {
   padding-right: 24px;
   padding-bottom: 20px;
   padding-left: 24px;
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--border-color);
   border-top: none;
 }
 /*.portfolio-card:hover,
@@ -1096,7 +1097,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
   padding: 63px 24px;
   transform: translateY(100%);
 
-  color: white;
+  color: var(--header-bgr-color);
   background-color: rgba(33, 150, 243, 0.9);
 
   transition-property: transform;
