@@ -847,7 +847,7 @@ p {
   line-height: 1.71;
   cursor: pointer;
 
-  color: var(--colorTertiary);
+  color: var(--additional-text-color);
 }
 
 .checkbox-icon {
