@@ -878,7 +878,7 @@ p {
   background-size: 100% 1px;
 }
 
-.checkbox-terms:visited {
+.checkbox-link:visited {
   color: var(--accent-bgr-color);
 }
 
